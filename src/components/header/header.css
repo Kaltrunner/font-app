@@ -1,0 +1,29 @@
+.row {
+    margin-bottom: 6vh;
+}
+
+.heady-container-div {
+    margin-top: 10vh;
+}
+
+#header-text-div {
+    margin-left: 2vw;
+}
+
+#header-text {
+    font-size: 16vw;
+    font-weight: 700;
+    letter-spacing: -.5vw;
+}
+
+.line-div {
+    width: 96%;
+    height: 2px;
+    background-color: #000;
+    margin: 4vh auto;
+}
+
+#header-col {
+line-height: 3vh;
+text-align: left;
+}

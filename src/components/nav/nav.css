@@ -1,0 +1,80 @@
+.nav-body-div {
+    height: 16vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-info-div {
+    width: 26vw;
+    height: 6vh;
+    margin: 0 4vw;
+    border: 1px solid gray;
+    border-radius: 25rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+}
+
+.nav-info-list {
+    background-color: #fff;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list-item {
+    background-color: #fff; 
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.nav-text {
+    font-size: 1.75vw;
+    width: 6vw;
+    padding: .5vw;
+    border-radius: 25rem;
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+.nav-btn {
+    font-size: 1.5vw;
+    width: 6vw;
+    padding: .5vw;
+    border-radius: 25rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    transition: all .25s ease-in-out;
+}
+
+.nav-btn:hover {
+    background-color:  rgb(22, 244, 22);
+    color: #000;
+    border: 1px solid #000;
+    transition: all .25s ease-in-out;
+}
+
+.nav-btn:active {
+    background-color: darkgrey;
+}
+
+p {
+    font-size: 1.5vw;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+#landing-txt {
+    background-color: #fff;
+    font-size: 1.5vw;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}

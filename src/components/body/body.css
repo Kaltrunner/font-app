@@ -1,0 +1,12 @@
+.body-container-div {
+    margin-top: 10vh;
+}
+
+.col-left {
+    border-right: 1px solid #000 ;
+}
+
+#body-col{
+    height: 80vh;
+    background-color: #fff;
+}
