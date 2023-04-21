@@ -9,7 +9,7 @@ function Header() {
       <div className="line-div"></div>
 
       <div class="container text-center">
-        <div className="row">
+        <div className="row header-row">
           <div class="col" id="header-col">
             Helvetica, also known by its original name Neue Haas Grotesk, is a
             widely used sans-serif typeface developed in 1957 by Swiss typeface
@@ -40,7 +40,7 @@ function Header() {
             salesman and designer.
           </div>
         </div>
-        <div class="row">
+        <div class="row header-row" >
           <div class="col" id="header-col">
             Miedinger and Hoffmann set out to create a neutral typeface that had
             great clarity, had no intrinsic meaning in its form, and could be

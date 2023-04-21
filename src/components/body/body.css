@@ -1,12 +1,139 @@
+
 .body-container-div {
     margin-top: 10vh;
 }
 
+.regular-font-row {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    /* padding:0; */
+    margin:0;
+}
+
+.regular-font-col {
+    background-color: #fff;
+}
+
+.regular-font {
+    font-size: 3vw;
+    letter-spacing: -.05vw;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#extra-thin {
+    font-weight: 100;
+}
+#thin {
+    font-weight: 300;
+}
+#light-thin {
+    font-weight: 200;
+}
+#medium {
+    font-weight: 400;
+}
+#regular {
+    font-weight: 500;
+}
+#normal {
+    font-weight: 600;
+}
+#light-bold {
+    font-weight: 700;
+}
+#bold {
+    font-weight: 800;
+}
+#extra-bold {
+    font-weight: 900;
+}
+
 .col-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     border-right: 1px solid #000 ;
+    border-bottom: 2px solid #000;
+    background-color: #fff;
+}
+
+.col-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fff;
+    /* padding: 0; */
+    border-bottom: 2px solid #000;
+}
+
+.subform-row {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+#subfam-title {
+    background-color: #fff;
+}
+
+#subfam-letters {
+    background-color: #fff;
+}
+
+.subform-title-div {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 25rem;
+    width: 9vw;
+    height: 3vh;
+    /* padding: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subform-title-div-text {
+    font-size: 1vw;
+    font-weight: 500;
+    background-color: transparent;
+    margin: 0 auto;
+    /* padding: 0; */
+}
+
+.subform-title-div-letters {
+    background-color: #fff;
+    font-size: 6vw;
+    font-weight: 500;
+    /* padding: 0; */
+    margin: 0;
+}
+
+#condensed {
+    letter-spacing: -.5vw;
+}
+
+#compact {
+    letter-spacing: -.25vw;
+}
+
+#regular {
+    letter-spacing: -.05vw;
+}
+
+#expanded {
+    letter-spacing: .25vw;
 }
 
 #body-col{
     height: 80vh;
     background-color: #fff;
+}
+
+.italic-font {
+    font-style: italic;
+    letter-spacing: -.05vw;
 }

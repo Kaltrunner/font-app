@@ -46,7 +46,7 @@ function Nav() {
       <div className="nav-info-div">
         {/* <Clock /> */}
         <div className="nav-text">{Clock()}</div>
-        {/* <div className="nav-text">stuff</div> */}
+        <div className="nav-text">info</div>
         <button className="nav-btn">Click</button>
       </div>
     </div>
