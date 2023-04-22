@@ -1,0 +1,23 @@
+
+
+.footer-body-div {
+    margin-top: 6vh;
+    height: 30vh;
+}
+
+.footer-col {
+    text-align: left;
+}
+
+#tag {
+    color: gray;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(22, 244, 22);
+    transition: all .25s ease-in-out;
+}
+
+#tag:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    transition: all .25s ease-in-out;
+}

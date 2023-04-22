@@ -52,7 +52,7 @@ function Header() {
             Hustwit was released in 2007 to coincide with the 50th anniversary
             of the typeface's introduction in 1957.
           </div>
-          <div class="col">
+          <div class="col" id="header-col">
             Like many neo-grotesque designs, Helvetica has narrow apertures,
             which limits its legibility onscreen and at small print sizes. It
             also has no visible difference between upper-case 'i' and lower-case

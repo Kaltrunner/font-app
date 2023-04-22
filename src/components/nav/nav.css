@@ -8,7 +8,7 @@
 
 .nav-info-div {
     width: 26vw;
-    height: 6vh;
+    /* height: 6vh; */
     margin: 0 4vw;
     border: 1px solid gray;
     border-radius: 25rem;
@@ -16,6 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: nowrap;
     position: fixed;
 }
 
@@ -34,17 +35,17 @@
 }
 
 .nav-text {
-    font-size: 1.75vw;
+    font-size: 1.5vw;
     width: 6vw;
     padding: .5vw;
     border-radius: 25rem;
-    background-color: #fff;
+    background-color: transparent;
     color: #000;
     border: none;
 }
 
 .nav-btn {
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     width: 6vw;
     padding: .25vw;
     border-radius: 25rem;
@@ -72,9 +73,9 @@ p {
 }
 
 #landing-txt {
-    background-color: #fff;
-    font-size: 1.5vw;
+    background-color: transparent;
+    font-size: 1.25vw;
     font-weight: 500;
-    /* padding: 0;
-    margin: 0; */
+    padding: 0;
+    margin: 0;
 }

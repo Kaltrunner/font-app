@@ -3,11 +3,31 @@
     margin-top: 10vh;
 }
 
+.character-list-div {
+    /* display: flex;
+    flex-wrap: wrap; */
+    background-color: transparent;
+}
+
+.character-list {
+    text-align: left;
+    font-size: 6vw;
+    font-weight: 500;
+    letter-spacing: -.05vw;
+    line-height: 9vh;
+}
+
+#symbols {
+    font-size: 4vw;
+    line-height: 8vh;
+    /* letter-spacing: .15vw; */
+}
+
 .regular-font-row {
     display: flex;
     align-items: center;
     background-color: #fff;
-    /* padding:0; */
+    padding:0;
     margin:0;
 }
 
@@ -76,7 +96,7 @@
     background-color: #fff;
 }
 
-#subfam-title {
+#subform-title {
     background-color: #fff;
 }
 
@@ -89,11 +109,9 @@
     border: 1px solid #000;
     border-radius: 25rem;
     width: 9vw;
-    height: 3vh;
-    /* padding: 0; */
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .subform-title-div-text {
@@ -129,11 +147,49 @@
 }
 
 #body-col{
-    height: 80vh;
+    height: 100vh;
     background-color: #fff;
+    display: flex;
+    justify-content: space-around   ;
 }
 
 .italic-font {
     font-style: italic;
     letter-spacing: -.05vw;
+}
+
+.lorem-row {
+    display: flex;
+   
+}
+
+#f64px {
+    font-size: 4.25vw;
+    /* font-size: 64px; */
+    line-height: 7vh;
+}
+
+#f48px {
+    font-size: 3.1vw;
+    /* font-size: 48px; */
+    line-height: 5vh;
+}
+
+#f32px {
+    font-size: 2.1vw;
+    /* font-size: 32px; */
+    line-height: 3.5vh;
+}
+
+#f24px {
+    font-size: 1.55vw;
+    /* font-size: 24px; */
+    line-height: 3vh;
+}
+
+#f16px {
+    font-size: 1.05vw;
+    /* font-size: 16px; */
+    line-height: 2vh;
+    
 }
