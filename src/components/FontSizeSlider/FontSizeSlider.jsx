@@ -36,7 +36,7 @@ function FontSizeSlider() {
           value={text === "Aa Bb Cc" ? "" : text}
           onChange={handleTextChange}
           placeholder="Enter text or phrase here"
-          maxlength="18"
+          maxLength="18"
         />
         <input
           id="font-range"
