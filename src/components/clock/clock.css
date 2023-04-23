@@ -1,4 +1,7 @@
 #landing-txt {
-    background-color: #fff;
-    color: blueviolet;
+    background-color: transparent;
+    font-size: 1.25vw;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
 }

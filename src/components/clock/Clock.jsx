@@ -12,26 +12,25 @@ function Clock() {
     }, []);
   
     let months = [
-      "January",
-      "February",
+      "Jan",
+      "Feb",
       "March",
       "April",
       "May",
       "June",
       "July",
-      "August",
-      "September",
-      "October",
-      "November",
-      "December",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
     ];
   
     const formattedTime = () => {
-      let y = time.getFullYear();
       let month = months[time.getMonth()];
       let d = time.getDate();
   
-      return month + " " + d + " , " + y;
+      return month + " " + d;
     };
   
     return <div id="landing-txt">{formattedTime()}</div>;

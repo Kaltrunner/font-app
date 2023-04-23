@@ -8,7 +8,6 @@
 
 .nav-info-div {
     width: 26vw;
-    /* height: 6vh; */
     margin: 0 4vw;
     border: 1px solid gray;
     border-radius: 25rem;
@@ -67,15 +66,5 @@
 }
 
 p {
-    font-size: 1.5vw;
-    margin: 0 auto;
-    background-color: #fff;
-}
-
-#landing-txt {
     background-color: transparent;
-    font-size: 1.25vw;
-    font-weight: 500;
-    padding: 0;
-    margin: 0;
 }

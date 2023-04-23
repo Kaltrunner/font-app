@@ -8,14 +8,14 @@ function Header() {
       </div>
       <div className="line-div"></div>
 
-      <div class="container text-center">
+      <div className="container text-center">
         <div className="row header-row">
-          <div class="col" id="header-col">
+          <div className="col" id="header-col">
             Helvetica, also known by its original name Neue Haas Grotesk, is a
             widely used sans-serif typeface developed in 1957 by Swiss typeface
             designer Max Miedinger and Eduard Hoffmann.
           </div>
-          <div class="col" id="header-col">
+          <div className="col" id="header-col">
             Helvetica is a neo-grotesque design, one influenced by the famous
             19th century (1890s) typeface Akzidenz-Grotesk and other German and
             Swiss designs. Its use became a hallmark of the International
@@ -29,7 +29,7 @@ function Header() {
             and an unusually tight spacing between letters, which combine to
             give it a dense, solid appearance.
           </div>
-          <div class="col" id="header-col">
+          <div className="col" id="header-col">
             Developed by the Haas'sche Schriftgiesserei (Haas Type Foundry) of
             Münchenstein (Basel), Switzerland, its release was planned to match
             a trend: a resurgence of interest in turn-of-the-century "grotesque"
@@ -40,8 +40,8 @@ function Header() {
             salesman and designer.
           </div>
         </div>
-        <div class="row header-row" >
-          <div class="col" id="header-col">
+        <div className="row header-row" >
+          <div className="col" id="header-col">
             Miedinger and Hoffmann set out to create a neutral typeface that had
             great clarity, had no intrinsic meaning in its form, and could be
             used on a wide variety of signage. Originally named Neue Haas
@@ -52,7 +52,7 @@ function Header() {
             Hustwit was released in 2007 to coincide with the 50th anniversary
             of the typeface's introduction in 1957.
           </div>
-          <div class="col" id="header-col">
+          <div className="col" id="header-col">
             Like many neo-grotesque designs, Helvetica has narrow apertures,
             which limits its legibility onscreen and at small print sizes. It
             also has no visible difference between upper-case 'i' and lower-case
@@ -63,7 +63,7 @@ function Header() {
             such as Courier, which makes all letters quite wide, may be more
             appropriate than Helvetica.
           </div>
-          <div class="col"></div>
+          <div className="col"></div>
         </div>
       </div>
     </div>

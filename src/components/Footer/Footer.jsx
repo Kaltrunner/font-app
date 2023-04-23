@@ -18,13 +18,15 @@ function Footer() {
             >
               Wikipedia
             </a>
-            <br/>
+            <br />
             <a
               id="tag"
               target="_blank"
               rel="noreferrer"
               href="https://fsymbols.com/"
-            >fsymbols</a>
+            >
+              fsymbols
+            </a>
           </div>
           <div className="col"> </div>
           <div className="col">
