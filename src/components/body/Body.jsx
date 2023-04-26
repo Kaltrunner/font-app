@@ -15,7 +15,7 @@ function Body() {
         <div className="row">
           <div className="col col-left" id="body-col">
             <div className="subform-title-div">
-              <p className="subform-title-div-text">characters & numbers</p>
+              <p className="subform-title-div-text">characters</p>
             </div>
             <div className="character-list-div">
               <p className="character-list">
@@ -25,12 +25,66 @@ function Body() {
                 <br />
                 TUVWXYZ
               </p>
-              <p className="character-list">
+              <p className="character-list lower">
                 abcdefghij
                 <br />
                 klmnopqrs
                 <br />
                 tuvwxyz
+              </p>
+              <br />
+              <p className="character-list">0123456789</p>
+            </div>
+          </div>
+          <div className="col col-right" id="body-col">
+            <div className="subform-title-div">
+              <p className="subform-title-div-text">Русский</p>
+            </div>
+            <div className="character-list-div">
+              <p className="character-list russian">
+                АБВГДЕЁЖЗИЙК
+                <br />
+                ЛМНОПРСТУФХ
+                <br />
+                ЦЧШЩЪЫЬЭЮЯ
+              </p>
+              <p className="character-list">
+                абвгдеёжзийк
+                <br />
+                лмнопрстуфх
+                <br />
+                цчшщъыьэюя
+              </p>
+              <br />
+              <p className="character-list russian-num">
+                {" "}
+                один две три четыре пять шесть семь восемь девять десять
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container text-center">
+        <div className="row">
+          <div className="col col-left" id="body-col">
+            <div className="subform-title-div">
+              <p className="subform-title-div-text">íslenskur</p>
+            </div>
+            <div className="character-list-div">
+              <p className="character-list icelandic">
+                АÁBDÐEÉFGH
+                <br />
+                IÍJKLMNOÓPRS
+                <br />
+                TUÚVXYÝÞÆÖ
+              </p>
+              <p className="character-list icelandic-lower">
+                aábcdðeéfghií
+                <br />
+                jklmnoópqrstu
+                <br />
+                úvwxyýzþæö
               </p>
               <br />
               <p className="character-list">0123456789</p>
@@ -509,11 +563,58 @@ function Body() {
             <div className="subform-title-div">
               <p className="subform-title-div-text">100%</p>
             </div>
+            <div className="text-field-div-100">
+              <p className="text-field-100">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
             <div className="subform-title-div">
               <p className="subform-title-div-text">45%</p>
             </div>
+            <div className="text-field-div-45">
+              <p className="text-field-45">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <p className="text-field-45">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
             <div className="subform-title-div">
               <p className="subform-title-div-text">33%</p>
+            </div>
+            <div className="text-field-div-33">
+              <p className="text-field-33">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+
+              <p className="text-field-33">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+
+              <p className="text-field-33">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
             </div>
           </div>
 
@@ -521,11 +622,58 @@ function Body() {
             <div className="subform-title-div">
               <p className="subform-title-div-text">100% - bold</p>
             </div>
+            <div className="text-field-div-100">
+              <p className="text-field-100" id="bold">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
             <div className="subform-title-div">
               <p className="subform-title-div-text">45% - bold</p>
             </div>
+            <div className="text-field-div-45">
+              <p className="text-field-45" id="bold">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <p className="text-field-45" id="bold">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
             <div className="subform-title-div">
               <p className="subform-title-div-text">33% - bold</p>
+            </div>
+            <div className="text-field-div-33">
+              <p className="text-field-33" id="bold">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+
+              <p className="text-field-33" id="bold">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+
+              <p className="text-field-33" id="bold">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
             </div>
           </div>
         </div>

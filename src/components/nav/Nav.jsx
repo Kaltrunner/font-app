@@ -1,7 +1,13 @@
+import React, { useState } from "react";
 import "./nav.css";
 import Clock from "../clock/Clock";
 
 function Nav() {
+
+    const [isDark, setIsDark] = useState(true);
+
+    
+
   return (
     <div className="nav-body-div">
       <div className="nav-info-div">
@@ -9,7 +15,15 @@ function Nav() {
           <Clock />
         </div>
         <div className="nav-text">info</div>
-        <button className="nav-btn">Click</button>
+        {isDark ? (
+          <button onClick={() => setIsDark(false)} className="nav-btn">
+            Dark
+          </button>
+        ) : (
+          <button onClick={() => setIsDark(true)} className="nav-btn-dark">
+            Light
+          </button>
+        )}
       </div>
     </div>
   );

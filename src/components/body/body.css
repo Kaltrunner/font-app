@@ -9,7 +9,7 @@
 
 .character-list {
     text-align: left;
-    font-size: 6vw;
+    font-size: 6.5vw;
     font-weight: 500;
     letter-spacing: -.05vw;
     line-height: 9vh;
@@ -91,6 +91,8 @@
     display: flex;
     align-items: center;
     background-color: #fff;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 
 #subform-title {
@@ -109,6 +111,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 3vh;
 }
 
 .subform-title-div-text {
@@ -142,10 +145,21 @@
 }
 
 #body-col{
-    height: 100vh;
+    /* height: 100vh; */
+    color: #000;
     background-color: #fff;
     display: flex;
-    justify-content: space-around   ;
+    justify-content: space-around;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+#body-col-dark{
+    height: 100vh;
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
 }
 
 .italic-font {
@@ -187,4 +201,61 @@
     /* font-size: 16px; */
     line-height: 2vh;
     
+}
+
+.text-field-div-100 {
+    width: 100%;  
+    background-color: transparent;
+    text-align: left; 
+}
+
+.text-field-100 {
+    font-size: 1.5vw;
+    /* padding: 0;
+    margin: 0; */
+}
+
+.text-field-div-45 {
+    /* width: 45%; */
+    background-color: transparent;
+    text-align: left; 
+    display: flex;
+    flex-wrap: nowrap
+}
+
+.text-field-45 {
+    font-size: 1.25vw;
+    margin-right: 1vw;
+}
+
+.text-field-div-33 {
+    background-color: transparent;
+    text-align: left; 
+    display: flex;
+    flex-wrap: nowrap
+}
+
+.text-field-33 {
+    font-size: 1vw;
+    margin-right: 1vw;
+}
+
+.lower {
+    font-size: 7vw;
+}
+
+.russian {
+    font-size: 5vw;
+}
+
+.russian-num {
+    font-size: 3vw;
+}
+
+.icelandic {
+    font-size: 6vw; 
+}
+
+.icelandic-lower {
+    font-size: 6vw;
 }
