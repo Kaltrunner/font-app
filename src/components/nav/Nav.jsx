@@ -3,10 +3,7 @@ import "./nav.css";
 import Clock from "../clock/Clock";
 
 function Nav() {
-
-    const [isDark, setIsDark] = useState(true);
-
-    
+  const [isDark, setIsDark] = useState(true);
 
   return (
     <div className="nav-body-div">

@@ -11,12 +11,16 @@
     margin: 0 4vw;
     border: 1px solid gray;
     border-radius: 25rem;
-    background-color: white;
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: nowrap;
     position: fixed;
+}
+.nav-info-div-dark {
+    background-color: #000;
+    color: #fff;
 }
 
 .nav-info-list {
