@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Clock from "../clock/Clock";
 import "./nav.css";
 
-function Nav() {
+function nav() {
   const [isDark, setIsDark] = useState(true);
 
   return (
@@ -26,4 +26,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default nav;
