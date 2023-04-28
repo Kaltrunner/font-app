@@ -18,10 +18,10 @@
     flex-wrap: nowrap;
     position: fixed;
 }
-.nav-info-div-dark {
+/* .nav-info-div-dark {
     background-color: #000;
     color: #fff;
-}
+} */
 
 .nav-info-list {
     background-color: #fff;

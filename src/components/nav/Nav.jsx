@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "./nav.css";
 import Clock from "../clock/Clock";
+import "./nav.css";
 
 function Nav() {
   const [isDark, setIsDark] = useState(true);
