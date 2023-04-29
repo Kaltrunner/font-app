@@ -1,5 +1,5 @@
 import Mouse from "./components/mouse/Mouse";
-import Nav from "./components/nav/nav";
+import Nav from "./components/nav/Nav";
 import Header from "./components/header/Header";
 import Body from "./components/body/Body";
 import Footer from "./components/Footer/Footer";
