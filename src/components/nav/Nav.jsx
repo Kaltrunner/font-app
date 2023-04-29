@@ -11,14 +11,14 @@ function Nav() {
         <div className="nav-text">
           <Clock />
         </div>
-        <div className="nav-text">info</div>
+        <div className="nav-text">stuff</div>
         {isDark ? (
           <button onClick={() => setIsDark(false)} className="nav-btn">
-            Dark
+            Click
           </button>
          ) : ( 
           <button onClick={() => setIsDark(true)} className="nav-btn-dark">
-            Light
+            Click!
           </button>
          )}
       </div>
