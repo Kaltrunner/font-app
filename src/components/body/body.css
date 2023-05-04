@@ -242,14 +242,22 @@
 
 .lower {
     font-size: 7vw;
+    line-height: 8vh;
 }
 
 .russian {
     font-size: 5vw;
+    line-height: 7vh;
+}
+
+.russian-lower {
+    font-size: 5vw;
+    line-height: 6vh;
 }
 
 .russian-num {
     font-size: 3vw;
+    line-height: 5vh;
 }
 
 .icelandic {
@@ -257,5 +265,6 @@
 }
 
 .icelandic-lower {
-    font-size: 6vw;
+    font-size: 5vw;
+    line-height: 7vh;
 }

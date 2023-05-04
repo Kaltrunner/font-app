@@ -48,7 +48,7 @@ function Body() {
                 <br />
                 ЦЧШЩЪЫЬЭЮЯ
               </p>
-              <p className="character-list">
+              <p className="character-list russian-lower">
                 абвгдеёжзийк
                 <br />
                 лмнопрстуфх
