@@ -1,4 +1,4 @@
-#Helvetica 
+# Helvetica 
 Welcome to the Helvetica (font-app) GitHub repository! This repository contains the source code for our website, which is dedicated to showcasing the Helvetica font. Helvetica is one of the most famous and widely used fonts in the world, and this website is designed to highlight its beauty and versatility.
 
 ##About Helvetica
