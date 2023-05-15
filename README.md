@@ -11,6 +11,8 @@ To get started with our website, simply clone this repository to your local mach
 Copy code
 git clone https://github.com/Kaltrunner/font-app.git
 Once you have cloned the repository, 
+- `npm run dev`: run the frontend on
+  [http://localhost:4000](http://localhost:4000)
 
 ## Contact
 If you have any questions or comments, I would love to hear from you. You can reach me through my website https://www.erikmrussell.com/.
