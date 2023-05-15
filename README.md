@@ -9,7 +9,7 @@ To get started with our website, simply clone this repository to your local mach
 
 ### bash
 Copy code
-git clone https://github.com/[username]/Helvetica-Showcase.git
+git clone https://github.com/Kaltrunner/font-app.git
 Once you have cloned the repository, 
 
 ## Contact
