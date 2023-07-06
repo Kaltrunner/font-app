@@ -11,7 +11,8 @@
     background-color: transparent;
     margin: 0;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+
 }
 
 .fontslider-p-div {
@@ -39,9 +40,19 @@
     background-color: transparent;
     cursor: grab;
     width: 20vw;
-    margin: 1vw 2vw;
+    margin: 0;
+    padding: 0;
 }
 
 #font-range:active {
     cursor: grabbing;
+}
+
+.font-size-value {
+    background-color: #fff;
+    margin: 0 1rem;
+    padding: .75rem;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    font-size: 1.5vw;
 }

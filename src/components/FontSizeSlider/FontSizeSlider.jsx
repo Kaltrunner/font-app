@@ -24,6 +24,7 @@ function FontSizeSlider() {
           placeholder="Enter text or phrase here"
           maxLength="18"
         />
+        <div className="font-size-value">{fontSize}px</div>
         <input
           id="font-range"
           type="range"
@@ -33,6 +34,7 @@ function FontSizeSlider() {
           onChange={handleSliderChange}
         />
       </div>
+
       <div className="fontslider-p-div">
         <p id="normal" style={{ fontSize: `${fontSize}px` }}>
           {text} - Normal

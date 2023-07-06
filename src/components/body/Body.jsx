@@ -19,19 +19,9 @@ function Body() {
                 <p className="subform-title-div-text">characters</p>
               </div>
               <div className="character-list-div">
-                <p className="character-list">
-                  ABCDEFGHIJ
-                  <br />
-                  KLMNOPQRS
-                  <br />
-                  TUVWXYZ
-                </p>
+                <p className="character-list">ABCDEFGHIJ KLMNOPQRS TUVWXYZ</p>
                 <p className="character-list lower">
-                  abcdefghij
-                  <br />
-                  klmnopqrs
-                  <br />
-                  tuvwxyz
+                  abcdefghij klmnopqrs tuvwxyz
                 </p>
                 <br />
                 <p className="character-list">0123456789</p>
@@ -43,18 +33,10 @@ function Body() {
               </div>
               <div className="character-list-div">
                 <p className="character-list russian">
-                  АБВГДЕЁЖЗИЙК
-                  <br />
-                  ЛМНОПРСТУФХ
-                  <br />
-                  ЦЧШЩЪЫЬЭЮЯ
+                  АБВГДЕЁЖЗИЙК ЛМНОПРСТУФХ ЦЧШЩЪЫЬЭЮЯ
                 </p>
                 <p className="character-list russian-lower">
-                  абвгдеёжзийк
-                  <br />
-                  лмнопрстуфх
-                  <br />
-                  цчшщъыьэюя
+                  абвгдеёжзийк лмнопрстуфх цчшщъыьэюя
                 </p>
                 <br />
                 <p className="character-list russian-num">
@@ -74,18 +56,10 @@ function Body() {
               </div>
               <div className="character-list-div">
                 <p className="character-list icelandic">
-                  АÁBDÐEÉFGH
-                  <br />
-                  IÍJKLMNOÓPRS
-                  <br />
-                  TUÚVXYÝÞÆÖ
+                  АÁBDÐEÉFGH IÍJKLMNOÓPRS TUÚVXYÝÞÆÖ
                 </p>
                 <p className="character-list icelandic-lower">
-                  aábcdðeéfghií
-                  <br />
-                  jklmnoópqrstu
-                  <br />
-                  úvwxyýzþæö
+                  aábcdðeéfghií jklmnoópqrstu úvwxyýzþæö
                 </p>
                 <br />
                 <p className="character-list">0123456789</p>
@@ -98,22 +72,8 @@ function Body() {
               </div>
               <div className="character-list-div">
                 <p className="character-list" id="symbols">
-                  ☺☻♥♦♣♠•◘○◙♂♀
-                  <br />
-                  ♪♫☼►◄↕‼¶▲▼↔∟↨
-                  <br />
-                  !¡@#$%^&*()+,-.÷
-                  <br />
-                  /:;~Δ€ƒ…†‡ˆ‰Š«»
-                  <br />
-                  ‹ŒŽ‘±µ¶™›¸œŸæ
-                  <br />
-                  ¼°½¢¾£¿¤¥¦§¨×¹²³
-                  <br />
-                  ÀÁÂÃÄÅÆÇ©®¬
-                  <br />
-                  ∩ε₧φ²∞ⁿδ√ΩΘΦ
-                  <br />
+                  ☺☻♥♦♣♠•◘○◙♂♀ ♪♫☼►◄↕‼¶▲▼↔∟↨ !¡@#$%^&*()+,-.÷ /:;~Δ€ƒ…†‡ˆ‰Š«»
+                  ‹ŒŽ‘±µ¶™›¸œŸæ ¼°½¢¾£¿¤¥¦§¨×¹²³ ÀÁÂÃÄÅÆÇ©®¬ ∩ε₧φ²∞ⁿδ√ΩΘΦ
                   ≈τµ÷σ⌡Σ⌠π≤Γ≥ß±
                 </p>
               </div>
