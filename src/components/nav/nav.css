@@ -7,7 +7,7 @@
 }
 
 .nav-info-div {
-    width: 26vw;
+    width: 32vw;
     margin: 0 4vw;
     border: 1px solid gray;
     border-radius: 25rem;
@@ -15,7 +15,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: nowrap;
     position: fixed;
 }
 
@@ -35,8 +34,7 @@
 
 .nav-text {
     font-size: 1.5vw;
-    width: 6vw;
-    padding: .5vw;
+    padding: 1vw;
     border-radius: 25rem;
     background-color: transparent;
     color: #000;
@@ -45,8 +43,10 @@
 }
 
 .nav-btn {
-    font-size: 1.25vw;
+    font-size: 1.5vw;
+    font-weight: 300;
     width: 6vw;
+    height: 3vw;
     padding: .25vw;
     border-radius: 25rem;
     background-color: #000;
@@ -55,27 +55,9 @@
     transition: all .25s ease-in-out;
 }
 
-.nav-btn-dark {
-    font-size: 1.25vw;
-    width: 6vw;
-    padding: .25vw;
-    border-radius: 25rem;
-    background-color: #fff;
-    color: #000;
-    border: 1px solid #000;
-    transition: all .25s ease-in-out;
-}
-
 .nav-btn:hover {
-    background-color: #fff;
+    background-color: gray;
     color: #000;
-    border: 1px solid #000;
-    transition: all .25s ease-in-out;
-}
-
-.nav-btn-dark:hover {
-    background-color:  #000;
-    color: #fff;
     border: 1px solid #000;
     transition: all .25s ease-in-out;
 }

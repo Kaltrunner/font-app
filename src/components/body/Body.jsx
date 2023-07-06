@@ -24,7 +24,9 @@ function Body() {
                   abcdefghij klmnopqrs tuvwxyz
                 </p>
                 <br />
-                <p className="character-list">0123456789</p>
+                <p className="character-list" id="numbers">
+                  0123456789
+                </p>
               </div>
             </div>
             <div className="col col-right" id="body-col">
@@ -62,7 +64,9 @@ function Body() {
                   aábcdðeéfghií jklmnoópqrstu úvwxyýzþæö
                 </p>
                 <br />
-                <p className="character-list">0123456789</p>
+                <p className="character-list" id="numbers">
+                  0123456789
+                </p>
               </div>
             </div>
 

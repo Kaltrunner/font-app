@@ -3,14 +3,19 @@ import Clock from "../clock/Clock";
 import "./nav.css";
 
 function Nav() {
-  const [isDark, setIsDark] = useState(true);
   const [scrollPosition, setScrollPosition] = useState(0);
   const [arrowText, setArrowText] = useState("view");
+  const [hasScrolled, setHasScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       const currentPosition = window.pageYOffset;
       setScrollPosition(currentPosition);
+      if (currentPosition > 0) {
+        setHasScrolled(true);
+      } else {
+        setHasScrolled(false);
+      }
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -24,13 +29,20 @@ function Nav() {
     const threshold = 5;
 
     if (Math.abs(scrollPosition - sectionFontPosition) < threshold) {
-      setArrowText("view");
+      setArrowText("More –");
     } else if (scrollPosition > sectionFontPosition) {
-      setArrowText("view ↑");
+      setArrowText("More ↑");
     } else if (scrollPosition < sectionFontPosition) {
-      setArrowText("view ↓");
+      setArrowText("More ↓");
     }
   }, [scrollPosition]);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
 
   return (
     <div className="nav-body-div">
@@ -46,15 +58,12 @@ function Nav() {
         >
           <div className="nav-text">{arrowText}</div>
         </a>
-        {isDark ? (
-          <button onClick={() => setIsDark(false)} className="nav-btn">
-            Click
-          </button>
-        ) : (
-          <button onClick={() => setIsDark(true)} className="nav-btn-dark">
-            Click!
-          </button>
-        )}
+        <button
+          className={`nav-btn ${hasScrolled ? "top-btn" : ""}`}
+          onClick={scrollToTop}
+        >
+          {hasScrolled ? "Top ↑" : " – "}
+        </button>
       </div>
     </div>
   );
