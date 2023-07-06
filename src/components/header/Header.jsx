@@ -40,7 +40,7 @@ function Header() {
             salesman and designer.
           </div>
         </div>
-        <div className="row header-row" >
+        <div className="row header-row">
           <div className="col" id="header-col">
             Miedinger and Hoffmann set out to create a neutral typeface that had
             great clarity, had no intrinsic meaning in its form, and could be
@@ -57,11 +57,11 @@ function Header() {
             which limits its legibility onscreen and at small print sizes. It
             also has no visible difference between upper-case 'i' and lower-case
             'L', although the number 1 is quite identifiable with its flag at
-            top left. Its tight, display-oriented spacing may also pose
-            problems for legibility. Other fonts intended for legibility at
-            small sizes such as Verdana, Meta, Trebuchet, or a monospace font
-            such as Courier, which makes all letters quite wide, may be more
-            appropriate than Helvetica.
+            top left. Its tight, display-oriented spacing may also pose problems
+            for legibility. Other fonts intended for legibility at small sizes
+            such as Verdana, Meta, Trebuchet, or a monospace font such as
+            Courier, which makes all letters quite wide, may be more appropriate
+            than Helvetica.
           </div>
           <div className="col"></div>
         </div>

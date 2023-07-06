@@ -18,10 +18,6 @@
     flex-wrap: nowrap;
     position: fixed;
 }
-/* .nav-info-div-dark {
-    background-color: #000;
-    color: #fff;
-} */
 
 .nav-info-list {
     background-color: #fff;
@@ -45,6 +41,7 @@
     background-color: transparent;
     color: #000;
     border: none;
+    cursor:  pointer !important;
 }
 
 .nav-btn {
@@ -89,4 +86,8 @@
 
 p {
     background-color: transparent;
+}
+
+#nav-links {
+    background-color: #fff;
 }

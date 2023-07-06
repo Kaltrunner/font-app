@@ -6,3 +6,19 @@
     color: rgb(22, 244, 22);
     background-color: #101820;
   }
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  body {
+    cursor: default !important;
+  }
+
+  button {
+    cursor: pointer !important;
+  }
+
+  a {
+    cursor: pointer !important;
+  }

@@ -1,3 +1,6 @@
+#section-font {
+    padding-top: 4vh;
+}
 
 .body-container-div {
     margin-top: 10vh;
@@ -15,10 +18,13 @@
     line-height: 9vh;
 }
 
+#fontsize {
+    cursor: text !important;
+}
+
 #symbols {
     font-size: 4vw;
     line-height: 8vh;
-    /* letter-spacing: .15vw; */
 }
 
 .regular-font-row {
@@ -145,7 +151,6 @@
 }
 
 #body-col{
-    /* height: 100vh; */
     color: #000;
     background-color: #fff;
     display: flex;
@@ -174,31 +179,26 @@
 
 #f64px {
     font-size: 4.25vw;
-    /* font-size: 64px; */
     line-height: 7vh;
 }
 
 #f48px {
     font-size: 3.1vw;
-    /* font-size: 48px; */
     line-height: 5vh;
 }
 
 #f32px {
     font-size: 2.1vw;
-    /* font-size: 32px; */
     line-height: 3.5vh;
 }
 
 #f24px {
     font-size: 1.55vw;
-    /* font-size: 24px; */
     line-height: 3vh;
 }
 
 #f16px {
     font-size: 1.05vw;
-    /* font-size: 16px; */
     line-height: 2vh;
     
 }
@@ -211,12 +211,9 @@
 
 .text-field-100 {
     font-size: 1.5vw;
-    /* padding: 0;
-    margin: 0; */
 }
 
 .text-field-div-45 {
-    /* width: 45%; */
     background-color: transparent;
     text-align: left; 
     display: flex;
