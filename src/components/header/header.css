@@ -1,5 +1,5 @@
 .header-row {
-    margin-bottom: 6vh;
+    margin: 2vh;
 }
 
 .heady-container-div {
@@ -7,7 +7,7 @@
 }
 
 #header-text-div {
-    margin-left: 2vw;
+    margin-left: 4vw;
 }
 
 #header-text {
@@ -17,13 +17,42 @@
 }
 
 .line-div {
-    width: 96%;
-    height: 2px;
+    width: 90%;
+    height: 1px;
     background-color: #000;
     margin: 4vh auto;
 }
 
 #header-col {
-line-height: 3vh;
-text-align: left;
+    width: 100%;
+    line-height: 1.75;
+    text-align: left;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #000;
+    transition: all .25s ease-in-out;
+}
+
+#header-col li {
+    transition: all .25s ease-in-out;
+}
+
+/* #header-col li:hover {
+    background-color: #202020;
+    color: whitesmoke;
+    transition: all .25s ease-in-out;
+} */
+
+.hostory-col {
+    margin: 0 auto;
+    transition: all .25s ease-in-out;
+    border: solid 1px #000;
+    padding: .5vw;
+    text-align: start;
+}
+
+.hostory-col:hover {
+    background-color: #000;
+    color: whitesmoke;
+    transition: all .25s ease-in-out;
 }

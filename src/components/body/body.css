@@ -10,7 +10,14 @@
     background-color: transparent;
     display: flex;
     flex-wrap: wrap;
+    /* color: lightgray;
+    transition: all .25s ease-in-out; */
 }
+
+/* .character-list-div:hover {
+    color: #000;
+    transition: all .25s ease-in-out;
+} */
 
 .character-list {
     text-align: left;
@@ -160,7 +167,14 @@
     justify-content: space-around;
     padding-top: 4vh;
     padding-bottom: 4vh;
+    /* color: lightgray;
+    transition: all .25s ease-in-out; */
 }
+
+/* #body-col:hover {
+    color: #000;
+    transition: all .25s ease-in-out;
+} */
 
 #body-col-dark{
     height: 100vh;

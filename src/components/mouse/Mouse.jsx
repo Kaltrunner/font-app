@@ -7,16 +7,16 @@ function Mouse() {
       <AnimatedCursor
         id="mouse"
         innerSize={0}
-        outerSize={30}
+        outerSize={20}
         color="208,83,255"
         outerAlpha={0.5}
         innerScale={0}
         outerScale={1}
-        trailingSpeed={0}
+        trailingSpeed={10}
         filter={true}
-        outerStyle={{
-          filter: "blur(2px)",
-        }}
+        // outerStyle={{
+        //   filter: "blur(2px)",
+        // }}
       />
     </>
   );
