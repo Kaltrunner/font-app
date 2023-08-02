@@ -10,14 +10,7 @@
     background-color: transparent;
     display: flex;
     flex-wrap: wrap;
-    /* color: lightgray;
-    transition: all .25s ease-in-out; */
 }
-
-/* .character-list-div:hover {
-    color: #000;
-    transition: all .25s ease-in-out;
-} */
 
 .character-list {
     text-align: left;
@@ -123,11 +116,19 @@
     background-color: #fff;
     border: 1px solid #000;
     border-radius: 25rem;
-    width: 9vw;
+    width: 10vw;
+    height: 2vw;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 3vh;
+    transition: all .25s ease-in-out;
+}
+
+.subform-title-div:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all .25s ease-in-out;
 }
 
 .subform-title-div-text {
@@ -167,14 +168,7 @@
     justify-content: space-around;
     padding-top: 4vh;
     padding-bottom: 4vh;
-    /* color: lightgray;
-    transition: all .25s ease-in-out; */
 }
-
-/* #body-col:hover {
-    color: #000;
-    transition: all .25s ease-in-out;
-} */
 
 #body-col-dark{
     height: 100vh;

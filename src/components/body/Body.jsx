@@ -12,6 +12,7 @@ function Body() {
             </div>
           </div>
         </div>
+
         <div className="container text-center">
           <div className="row">
             <div className="col col-left" id="body-col">
@@ -76,9 +77,8 @@ function Body() {
               </div>
               <div className="character-list-div">
                 <p className="character-list" id="symbols">
-                  ►◄↕‼¶▲▼↔∟↨ !¡@#$%^&*()+,-.÷ /:;~Δ€ƒ…†‡ˆ‰Š«»
-                  ‹ŒŽ‘±µ¶™›¸œŸæ ¼°½¢¾£¿¤¥¦§¨×¹²³ ÀÁÂÃÄÅÆÇ©®¬ ∩ε₧φ²∞ⁿδ√ΩΘΦ
-                  ≈τµ÷σ⌡Σ⌠π≤Γ≥ß±
+                  ►◄↕‼¶▲▼↔∟↨ !¡@#$%^&*()+,-.÷ /:;~Δ€ƒ…†‡ˆ‰Š«» ‹ŒŽ‘±µ¶™›¸œŸæ
+                  ¼°½¢¾£¿¤¥¦§¨×¹²³ ÀÁÂÃÄÅÆÇ©®¬ ∩ε₧φ²∞ⁿδ√ΩΘΦ ≈τµ÷σ⌡Σ⌠π≤Γ≥ß±
                   {/* !@#$%^&*()-_=+:-œ∑´®†¥¨ˆøπåß∂ƒ©˙∆˚¬≈ç√˜µ */}
                 </p>
               </div>
