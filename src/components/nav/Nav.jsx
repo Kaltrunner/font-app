@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Clock from "../clock/Clock";
 import "./nav.css";
 
-function Nav() {
+function Nav({ toggleTheme }) {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [arrowText, setArrowText] = useState("view");
   const [hasScrolled, setHasScrolled] = useState(false);
@@ -50,19 +50,22 @@ function Nav() {
         <div className="nav-text">
           <Clock />
         </div>
-        <a
+        <button className="click-btn" onClick={toggleTheme}>
+          Click
+        </button>
+        {/* <a
           className="nav-link active"
           aria-current="page"
           id="nav-links"
           href="#section-font"
         >
           <div className="nav-text">{arrowText}</div>
-        </a>
+        </a> */}
         <button
           className={`nav-btn ${hasScrolled ? "top-btn" : ""}`}
           onClick={scrollToTop}
         >
-          {hasScrolled ? "Top ↑" : " – "}
+          <span className="button-text">{hasScrolled ? "Top ↑" : "  "}</span>
         </button>
       </div>
     </div>

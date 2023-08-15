@@ -27,21 +27,13 @@
     width: 100%;
     line-height: 1.75;
     text-align: left;
-    outline-style: solid;
-    outline-width: 1px;
-    outline-color: #000;
+    margin: 2vw 0;   
     transition: all .25s ease-in-out;
 }
 
 #header-col li {
     transition: all .25s ease-in-out;
 }
-
-/* #header-col li:hover {
-    background-color: #202020;
-    color: whitesmoke;
-    transition: all .25s ease-in-out;
-} */
 
 .hostory-col {
     margin: 0 auto;
@@ -55,4 +47,8 @@
     background-color: #000;
     color: whitesmoke;
     transition: all .25s ease-in-out;
+}
+
+#dark .line-div {
+    background-color: rgb(22, 244, 22);
 }

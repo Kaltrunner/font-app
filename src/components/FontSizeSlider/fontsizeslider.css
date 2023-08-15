@@ -29,7 +29,6 @@
 #fontsize {
     width: 25vw;
     height: 5vh;
-    color: #fff;
     background-color: #000;
     padding-left: 1vw;
     border: none;
@@ -55,4 +54,8 @@
     border-left: 1px solid #000;
     border-right: 1px solid #000;
     font-size: 1.5vw;
+}
+
+#dark ::placeholder {
+    color: rgb(22, 244, 22);
 }

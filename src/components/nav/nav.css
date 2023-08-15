@@ -1,3 +1,5 @@
+
+
 .nav-body-div {
     height: 16vh;
     background-color: transparent;
@@ -42,6 +44,22 @@
     cursor:  pointer !important;
 }
 
+.click-btn {
+    font-size: 1.5vw;
+    width: 6vw;
+    height: 3vw;
+    border-radius: 25rem;
+    border: 1px solid #000;
+    background-color: transparent;
+    transition: all .75s linear;
+}
+
+.click-btn:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all .25s linear;
+}
+
 .nav-btn {
     font-size: 1.5vw;
     font-weight: 300;
@@ -56,14 +74,11 @@
 }
 
 .nav-btn:hover {
-    background-color: gray;
-    color: #000;
-    border: 1px solid #000;
     transition: all .25s ease-in-out;
 }
 
 .nav-btn:active {
-    background-color: darkgrey;
+    color: #fff;
 }
 
 p {
@@ -73,3 +88,31 @@ p {
 #nav-links {
     background-color: #fff;
 }
+
+.button-text {
+    display: inline-block;
+    background-color: #000;
+    animation: fade .75s ease-in;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  .nav-btn.top-btn .button-text {
+    animation: fade-in .75s ease-out;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

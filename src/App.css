@@ -1,10 +1,9 @@
-* {
+/* * {
     background-color: rgb(22, 244, 22);
-}
+} */
 
 ::selection {
-    color: rgb(22, 244, 22);
-    background-color: #101820;
+    user-select: none;
   }
 
   body::-webkit-scrollbar {
@@ -21,4 +20,14 @@
 
   a {
     cursor: pointer !important;
+  }
+
+  #light {
+    background-color: rgb(22, 244, 22);
+  }
+
+  #dark {
+    background-color: #000;
+    color: rgb(22, 244, 22);
+    
   }
