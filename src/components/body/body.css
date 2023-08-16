@@ -113,8 +113,9 @@
 }
 
 .subform-title-div {
-    background-color: #fff;
-    border: 1px solid #000;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
     border-radius: 25rem;
     width: 10vw;
     height: 2vw;
@@ -122,13 +123,10 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 3vh;
-    transition: all .25s ease-in-out;
 }
 
-.subform-title-div:hover {
-    background-color: #000;
-    color: #fff;
-    transition: all .25s ease-in-out;
+#dark .subform-title-div {
+    color: rgb(22, 244, 22);
 }
 
 .subform-title-div-text {

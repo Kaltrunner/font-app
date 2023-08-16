@@ -5,6 +5,7 @@ function Header() {
     <div className="heady-container-div">
       <div className="col" id="header-text-div">
         <h1 id="header-text">Helvetica</h1>
+        <p className="scroll-text">SCROLL FOR MORE ↓</p>
       </div>
       <div className="line-div"></div>
 

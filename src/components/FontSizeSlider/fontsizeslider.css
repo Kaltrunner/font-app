@@ -30,9 +30,11 @@
     width: 25vw;
     height: 5vh;
     background-color: #000;
-    padding-left: 1vw;
+    padding-left: 2vw;
     border: none;
     border-radius: 25rem;
+    color: #fff;
+    caret-color: #fff;
 }
 
 #font-range {
@@ -56,6 +58,19 @@
     font-size: 1.5vw;
 }
 
+#fontsize::placeholder {
+    color: #fff;
+}
+
+#fontsize:focus::placeholder {
+    color: transparent;
+}
+
+#dark #fontsize {
+    color:rgb(22, 244, 22);
+}
+
 #dark ::placeholder {
     color: rgb(22, 244, 22);
+    caret-color: rgb(22, 244, 22);
 }

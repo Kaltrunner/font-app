@@ -53,19 +53,11 @@ function Nav({ toggleTheme }) {
         <button className="click-btn" onClick={toggleTheme}>
           Click
         </button>
-        {/* <a
-          className="nav-link active"
-          aria-current="page"
-          id="nav-links"
-          href="#section-font"
-        >
-          <div className="nav-text">{arrowText}</div>
-        </a> */}
         <button
-          className={`nav-btn ${hasScrolled ? "top-btn" : ""}`}
+          className={`nav-btn ${hasScrolled ? "top-btn" : " "}`}
           onClick={scrollToTop}
         >
-          <span className="button-text">{hasScrolled ? "Top ↑" : "  "}</span>
+          <span className="button-text">{hasScrolled ? "Top ↑" : " "}</span>
         </button>
       </div>
     </div>
