@@ -7,7 +7,26 @@ function Body() {
       <div className="body-container-div">
         <div className="container text-center">
           <div className="row">
+            <div className="col col-left" id="body-col">
+              <div className="subform-title-div">
+                <p className="subform-title-div-text">Comparison</p>
+              </div>
+              <div className="font-comp">
+                <img
+                  id="font-pic"
+                  src="https://camo.githubusercontent.com/3bf02fdc3edc773b18e65fc7ce408e467d4107f0ac5ba2adbcb8cc631c53b003/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f333639343133312f3139313938302f31656264646630362d376635332d313165322d383035392d3333323833326136353763662e706e67"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container text-center">
+          <div className="row">
             <div className="col col-right" id="body-col">
+              <div className="subform-title-div">
+                <p className="subform-title-div-text">Sizing</p>
+              </div>
               <FontSizeSlider />
             </div>
           </div>
@@ -17,16 +36,18 @@ function Body() {
           <div className="row">
             <div className="col col-left" id="body-col">
               <div className="subform-title-div">
-                <p className="subform-title-div-text">characters</p>
+                <p className="subform-title-div-text">Characters</p>
               </div>
               <div className="character-list-div">
-                <p className="character-list">ABCDEFGHIJ KLMNOPQRS TUVWXYZ</p>
+                <p className="character-list">
+                  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+                </p>
                 <p className="character-list lower">
-                  abcdefghij klmnopqrs tuvwxyz
+                  a b c d e f g h i j k l m n o p q r s t u v w x y z
                 </p>
                 <br />
                 <p className="character-list" id="numbers">
-                  0123456789
+                  0 1 2 3 4 5 6 7 8 9
                 </p>
               </div>
             </div>
@@ -36,10 +57,12 @@ function Body() {
               </div>
               <div className="character-list-div">
                 <p className="character-list russian">
-                  АБВГДЕЁЖЗИЙК ЛМНОПРСТУФХ ЦЧШЩЪЫЬЭЮЯ
+                  А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э
+                  Ю Я
                 </p>
                 <p className="character-list russian-lower">
-                  абвгдеёжзийк лмнопрстуфх цчшщъыьэюя
+                  а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э
+                  ю я
                 </p>
                 <br />
                 <p className="character-list russian-num">
@@ -55,30 +78,34 @@ function Body() {
           <div className="row">
             <div className="col col-left" id="body-col">
               <div className="subform-title-div">
-                <p className="subform-title-div-text">íslenskur</p>
+                <p className="subform-title-div-text">Persónur</p>
               </div>
               <div className="character-list-div">
                 <p className="character-list icelandic">
-                  АÁBDÐEÉFGH IÍJKLMNOÓPRS TUÚVXYÝÞÆÖ
+                  А Á B D Ð E É F G H I Í J K L M N O Ó P R S T U Ú V X Y Ý Þ Æ
+                  Ö
                 </p>
                 <p className="character-list icelandic-lower">
-                  aábcdðeéfghií jklmnoópqrstu úvwxyýzþæö
+                  a á b c d ð e é f g h i í j k l m n o ó p q r s t u ú v w x y
+                  ý z þ æ ö
                 </p>
                 <br />
                 <p className="character-list" id="numbers">
-                  0123456789
+                  0 1 2 3 4 5 6 7 8 9
                 </p>
               </div>
             </div>
 
             <div className="col col-right" id="body-col">
               <div className="subform-title-div">
-                <p className="subform-title-div-text">symbols</p>
+                <p className="subform-title-div-text">Symbols</p>
               </div>
               <div className="character-list-div">
                 <p className="character-list" id="symbols">
-                  ►◄↕‼¶▲▼↔∟↨ !¡@#$%^&*()+,-.÷ /:;~Δ€ƒ…†‡ˆ‰Š«» ‹ŒŽ‘±µ¶™›¸œŸæ
-                  ¼°½¢¾£¿¤¥¦§¨×¹²³ ÀÁÂÃÄÅÆÇ©®¬ ∩ε₧φ²∞ⁿδ√ΩΘΦ ≈τµ÷σ⌡Σ⌠π≤Γ≥ß±
+                  ► ◄ ↕ ‼ ¶ ▲ ▼ ↔ ∟ ↨ ! ¡ @ # $ % ^ & * ( ) + , - .÷ / : ; ~ Δ €
+                  ƒ … † ‡ ˆ ‰ Š « » ‹ Œ Ž ‘ ± µ ¶ ™ › ¸ œ Ÿ æ ¼ ° ½ ¢ ¾ £ ¿ ¤ ¥
+                  ¦ § ¨ × ¹ ² ³ À Á Â Ã Ä Å Æ Ç © ® ¬ ∩ ε₧φ²∞ⁿδ√ΩΘΦ ≈ τ µ ÷ σ ⌡
+                  Σ ⌠ π ≤ Γ ≥ ß ±
                   {/* !@#$%^&*()-_=+:-œ∑´®†¥¨ˆøπåß∂ƒ©˙∆˚¬≈ç√˜µ */}
                 </p>
               </div>
