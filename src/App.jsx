@@ -25,7 +25,9 @@ function getRandomIndex(max) {
 }
 
 function App() {
-  const [themeIndex, setThemeIndex] = useState(getRandomIndex(themeOptions.length));
+  const [themeIndex, setThemeIndex] = useState(
+    getRandomIndex(themeOptions.length)
+  );
   const [themeLoaded, setThemeLoaded] = useState(false);
 
   const toggleTheme = () => {
