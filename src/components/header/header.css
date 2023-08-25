@@ -20,16 +20,9 @@
 }
 
 .scroll-text {
-    margin: 0 2vw;
+    margin: 0 4vw;
     writing-mode: vertical-rl;
     text-orientation: upright;
-}
-
-.line-div {
-    width: 90%;
-    height: 1px;
-    background-color: #000;
-    margin: 4vh auto;
 }
 
 #header-col {
@@ -61,6 +54,55 @@
 #dark .line-div {
     background-color: rgb(22, 244, 22);
 }
+
+.hidden-span {
+    display: none;
+  }
+
+  .hidden-a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hidden-a:hover .hidden-span {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left:  20%;
+    transform: rotate(6deg);
+  }
+
+  .hidden-div {
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hidden-div:hover .hidden-span {
+    display: block;
+    position: fixed;
+    top: 30%;
+    left:  35%;
+    transform: rotate(-9deg);
+  }
+
+  .hidden-scroll {
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hidden-scroll:hover .hidden-span {
+    display: block;
+    position: fixed;
+    top: 30%;
+    left:  65%;
+    transform: rotate(-2deg);
+  }
 
 
 @media only screen and (max-width: 912px) {

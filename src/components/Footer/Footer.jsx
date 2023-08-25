@@ -5,7 +5,7 @@ function Footer() {
     <div className="footer-body-div">
       <div className="line-div"></div>
 
-      <div className="container text-center">
+      <div className="container text-center" id="footer-div">
         <div className="row footer-row">
           <div className="col footer-col">
             Resources:
@@ -32,7 +32,7 @@ function Footer() {
           <div className="col">
             Designed and developed by{" "}
             <a
-              id="tag"
+              id="footer-link"
               target="_blank"
               rel="noreferrer"
               href="https://www.erikmrussell.com/"

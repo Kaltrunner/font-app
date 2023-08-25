@@ -5,14 +5,36 @@ function Header() {
     <div className="heady-container-div">
       <div className="col" id="header-text-div">
         <h1 id="header-text">Helvetica</h1>
+        
+        <div className="hidden-scroll">
         <p className="scroll-text">SCROLL FOR MORE ↓</p>
+              <span className="hidden-span">
+                <img
+                  className="hidden-img"
+                  src="https://media.tenor.com/aOEKIUTisY8AAAAC/darth-sidious-star-wars.gif"
+                  alt=""
+                  width="300"
+                />
+              </span>
+            </div>
       </div>
       <div className="line-div"></div>
 
       <div className="container text-center">
         <div className="row header-row">
           <div className="col" id="header-col">
-            <strong>History:</strong> <br />
+            <div className="hidden-a">
+              <strong>History:</strong>
+              <span className="hidden-span">
+                <img
+                  className="hidden-img"
+                  // src="https://ihttps://media.tenor.com/ZjPK4GjWF-oAAAAC/ramones-high-school.gif.gifer.com/BWMl.gif"
+                  src="https://media.tenor.com/ZjPK4GjWF-oAAAAC/ramones-high-school.gif"
+                  alt=""
+                  width="350"
+                />
+              </span>
+            </div>
             Helvetica, also known by its original name Neue Haas Grotesk, is a
             widely used sans-serif typeface developed in 1957 by Swiss typeface
             designer Max Miedinger and Eduard Hoffmann.
@@ -66,8 +88,17 @@ function Header() {
             than Helvetica.
           </div>
           <div className="col" id="header-col">
-            <strong>Characteristics:</strong>
-            <br />
+            <div className="hidden-div">
+              <strong>Characteristics:</strong>
+              <span className="hidden-span">
+                <img
+                  className="hidden-img"
+                  src="https://media.tenor.com/4LvAD8hD5tcAAAAd/charlie-day.gif"
+                  alt=""
+                  width="325"
+                />
+              </span>
+            </div>
             <ul>
               <li>Tall x-height, which makes it easier to read at distance</li>
               <li>Tight spacing between letters</li>

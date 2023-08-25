@@ -72,5 +72,28 @@
 
 #dark ::placeholder {
     color: rgb(22, 244, 22);
-    caret-color: rgb(22, 244, 22);
+}
+
+#gray ::placeholder {
+    color: rgb(241, 250, 228);
+}
+
+#blue ::placeholder {
+    color: rgb(229, 58, 58);
+}
+
+#green ::placeholder {
+    color: rgb(214, 255, 0);
+}
+
+#purple ::placeholder {
+    color: rgb(255, 188, 210);
+}
+
+#pink ::placeholder {
+    color: rgb(229, 58, 58);
+}
+
+#brown ::placeholder {
+    color: rgb(239, 234, 53);
 }

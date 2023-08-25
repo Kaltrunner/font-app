@@ -131,6 +131,30 @@
     color: rgb(22, 244, 22);
 }
 
+#gray .subform-title-div {
+    color: rgb(241, 250, 228);
+}
+
+#blue .subform-title-div {
+    color: rgb(229, 58, 58);
+}
+
+#green .subform-title-div {
+    color: rgb(214, 255, 0);
+}
+
+#purple .subform-title-div {
+    color: rgb(255, 188, 210);
+}
+
+#pink .subform-title-div {
+    color: rgb(229, 58, 58);
+}
+
+#brown .subform-title-div {
+    color: rgb(239, 234, 53);
+}
+
 .subform-title-div-text {
     font-size: 1vw;
     font-weight: 500;

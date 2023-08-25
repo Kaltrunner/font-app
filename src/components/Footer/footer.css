@@ -12,14 +12,26 @@
 #tag {
     color: gray;
     text-decoration: none;
-    border-bottom: 1px solid rgb(22, 244, 22);
-    transition: all .25s ease-in-out;
+    transition: all .5s ease-in-out;
     cursor: pointer;
+    line-height: 2;
 }
 
 #tag:hover {
+    letter-spacing: .15em;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+#footer-link {
+    color: gray;
     text-decoration: none;
-    border-bottom: 1px solid #000;
+    transition: all .5s ease-in-out;
+    border-bottom: 1px solid transparent;
+}
+
+#footer-link:hover {
     transition: all .25s ease-in-out;
     cursor: pointer;
+    border-bottom: 1px solid gray;
 }

@@ -9,36 +9,60 @@ import "./App.css";
 
 export const ThemeContext = createContext(null);
 
+const themeOptions = [
+  "light",
+  "gray",
+  "dark",
+  "blue",
+  "green",
+  "purple",
+  "pink",
+  "brown",
+];
+
+function getRandomIndex(max) {
+  return Math.floor(Math.random() * max);
+}
+
 function App() {
-  const [theme, setTheme] = useState("light");
+  const [themeIndex, setThemeIndex] = useState(getRandomIndex(themeOptions.length));
   const [themeLoaded, setThemeLoaded] = useState(false);
 
   const toggleTheme = () => {
-    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+    const newIndex = getRandomIndex(themeOptions.length);
+    setThemeIndex(newIndex);
   };
 
   useEffect(() => {
-    const savedTheme = JSON.parse(localStorage.getItem("pageTheme"));
-    if (savedTheme) {
-      setTheme(savedTheme);
+    const savedThemeIndex = JSON.parse(localStorage.getItem("pageThemeIndex"));
+    if (
+      savedThemeIndex !== null &&
+      savedThemeIndex >= 0 &&
+      savedThemeIndex < themeOptions.length
+    ) {
+      setThemeIndex(savedThemeIndex);
+    } else {
+      setThemeIndex(getRandomIndex(themeOptions.length));
     }
     setThemeLoaded(true);
   }, []);
 
   useEffect(() => {
     if (themeLoaded) {
-      localStorage.setItem("pageTheme", JSON.stringify(theme));
+      localStorage.setItem("pageThemeIndex", JSON.stringify(themeIndex));
     }
-  }, [theme, themeLoaded]);
+  }, [themeIndex, themeLoaded]);
 
   if (!themeLoaded) {
     return <div>Loading...</div>;
   }
 
+  const currentTheme = themeOptions[themeIndex];
+
   return (
     <>
-      <ThemeContext.Provider value={{ theme, toggleTheme }}>
-        <div className="app" id={theme}>
+      <ThemeContext.Provider value={{ theme: currentTheme, toggleTheme }}>
+        <div className="app" id={currentTheme}>
           <Mouse />
           <Nav toggleTheme={toggleTheme} />
           <Header />

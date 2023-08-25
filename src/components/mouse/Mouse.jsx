@@ -7,16 +7,19 @@ function Mouse() {
       <AnimatedCursor
         id="mouse"
         innerSize={0}
-        outerSize={20}
-        color="208,83,255"
+        outerSize={60}
+        color="0, 0, 0"
         outerAlpha={0.5}
         innerScale={0}
-        outerScale={1}
-        trailingSpeed={10}
+        outerScale={1.5}
+        trailingSpeed={16}
         filter={true}
-        // outerStyle={{
-        //   filter: "blur(2px)",
-        // }}
+        mixBlendMode={true}
+        outerStyle={{
+          border: "2px solid #fff",
+          mixBlendMode: "difference",
+          filter: "opacity(1)",
+        }}
       />
     </>
   );

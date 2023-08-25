@@ -5,15 +5,15 @@
     background-color: transparent;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .nav-info-div {
     width: 32vw;
     margin: 0 4vw;
-    border: 1px solid gray;
+    border: 1px solid #000;
     border-radius: 25rem;
-    background-color: #fff;
+    background-color: #ffffffE6;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -50,7 +50,7 @@
     height: 3vw;
     border-radius: 25rem;
     border: 1px solid #000;
-    background-color: transparent;
+    background-color: inherit;
     transition: all .75s linear;
 }
 
@@ -68,9 +68,13 @@
     padding: .25vw;
     border-radius: 25rem;
     background-color: #000;
-    color: #fff;
+    color: inherit;
     border: none;
     transition: all .25s ease-in-out;
+}
+
+#light .button-text {
+  color: #fff;
 }
 
 .nav-btn:hover {
