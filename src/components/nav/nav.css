@@ -13,7 +13,8 @@
     margin: 0 4vw;
     border: 1px solid #000;
     border-radius: 25rem;
-    background-color: #ffffffE6;
+    background-color: #ffffffBF;
+    backdrop-filter: blur(5px);
     display: flex;
     align-items: center;
     justify-content: space-around;
