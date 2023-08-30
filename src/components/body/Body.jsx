@@ -23,7 +23,7 @@ function Body() {
         </div>
         <div className="container text-center">
           <div className="row">
-            <div className="col col-right" id="body-col">
+            <div className="col col-right" id="body-col-slider">
               <div className="subform-title-div">
                 <p className="subform-title-div-text">Sizing</p>
               </div>

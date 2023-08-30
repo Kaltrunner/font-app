@@ -79,3 +79,25 @@
     background-color: rgb(71, 66, 49);
     color: rgb(239, 234, 53);
   }
+
+  @media only screen and (max-width: 390px) {
+    .body-container-div {
+      display: flex;
+      flex-direction: column;
+    }
+    .fontslider-input-div {
+      width: auto;
+      display: flex;
+      
+    }
+    #font-range {
+      width: auto;
+    }
+    #fontsize {
+      width: 50%;
+      padding: 0;
+    }
+    .footer-body-div {
+      display: inline;
+    }
+  }

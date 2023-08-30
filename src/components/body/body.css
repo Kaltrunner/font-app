@@ -4,6 +4,8 @@
 
 .body-container-div {
     margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .character-list-div {
@@ -186,6 +188,16 @@
 }
 
 #body-col{
+    color: #000;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 4vw 2vw;
+}
+
+#body-col-slider {
     color: #000;
     background-color: #fff;
     display: flex;
