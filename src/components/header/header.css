@@ -68,7 +68,7 @@
 
   .hidden-a:hover .hidden-span {
     display: block;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left:  20%;
     transform: rotate(6deg);
@@ -83,8 +83,7 @@
 
   .hidden-div:hover .hidden-span {
     display: block;
-    position: fixed;
-    top: 30%;
+    position: absolute;
     left:  35%;
     transform: rotate(-9deg);
   }
@@ -98,7 +97,7 @@
 
   .hidden-scroll:hover .hidden-span {
     display: block;
-    position: fixed;
+    position: absolute;
     top: 30%;
     left:  65%;
     transform: rotate(-2deg);
