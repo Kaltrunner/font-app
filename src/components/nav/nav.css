@@ -10,18 +10,19 @@
 
 .nav-info-div {
     width: 32vw;
-    min-width: 12rem;
-    min-height: 2rem;
+    min-width: 16rem;
+    min-height: 4rem;
     height: auto;
     margin: 0 4vw;
     border: 1px solid #000;
     border-radius: 25rem;
-    background-color: #ffffffBF;
-    backdrop-filter: blur(5px);
+    background-color: #ffffff;
+    /* backdrop-filter: blur(5px); */
     display: flex;
     align-items: center;
     justify-content: space-around;
     position: fixed;
+    z-index: 99;
 }
 
 .nav-info-list {
@@ -49,9 +50,11 @@
 }
 
 .click-btn {
-    font-size: 1.5vw;
-    width: 6vw;
-    height: 3vw;
+    font-size: 2vw;
+    width: 7vw;
+    min-width: 4rem;
+    height: 3.5vw;
+    min-height: 2rem;
     padding: 0;
     margin: 0;
     border: none;
@@ -106,10 +109,12 @@
 }
 
 .nav-btn {
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-weight: 300;
-    width: 6vw;
-    height: 3vw;
+    width: 7vw;
+    min-width: 4rem;
+    height: 3.5vw;
+    min-height: 2rem;
     padding: 0;
     margin: 0;
     border-radius: 25rem;
